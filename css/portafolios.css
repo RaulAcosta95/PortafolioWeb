@@ -1,0 +1,9 @@
+
+#portafolios h4{
+    margin-top: 20px;
+    font-size: 35px;
+    text-align: center;
+}
+#portafolios h4:hover{
+    font-size: 45px;
+}

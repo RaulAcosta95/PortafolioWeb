@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Design Project</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/portafolios.css">
+    <link rel="stylesheet" href="./css/proyectos.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+</head>
+<body>
+    <div class="navbar">
+        <img id="mi-foto" src="https://avatars.githubusercontent.com/u/76792770?s=400&u=c72323bd9aba65b3ad75f04694f4d4c36b63f878&v=4" alt="Mi foto de perfil de GitHub Raúl Acosta">
+        <nav id="navbar-desktop">
+            <a href="#header">Inicio</a>
+            <a href="#portafolios">Portafolio</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <nav id="navbar-movile">
+            <div id="enlaces-movile">
+                <a class="enlace-movile" href="#header">Inicio</a> <br>
+                <a class="enlace-movile" href="#portafolios">Portafolio</a> <br>
+                <a class="enlace-movile" href="#contacto">Contacto</a> <br>
+            </div>
+            <button id="boton-menu" class="boton-menu"></button> 
+        </nav>
+    </div>
+    <header id="header">
+        <div id="welcome-section">
+            <h1>Portafolio Desarrollador Web</h1>
+            <h3>Desarrollador Front End</h3>
+            <h2>Raúl Acosta</h2>
+        </div>
+        <div>
+            <a id="profile-link" href="https://github.com/RaulAcosta95?tab=repositories" target="_blank">Mi repositorio en GitHub</a>
+        </div>
+    </header>
+    <section id="portafolios">
+        <h4>Portafolio de trabajo</h4>
+        <article id="projects">
+            <div class="proyecto" id="project-title1">
+                <img src="./imagenes/proyecto.png" alt="Dibujo frontal de mujer que representa una asistente de alarma">
+                <div class="descripcion">
+                    <p>Una alarma online hecha con Javascript vanila.</p>
+                    <a href="https://raulacosta95.github.io/AlarmaOnline/" target="_blank">Alarma Online</a>
+                </div>
+            </div>
+            <div class="proyecto" id="project-title2">
+                <img src="./imagenes/proyecto2.png" alt="Presentación de página web con logo de la empresa Black Hair, con una foto de fondo de San Francisco">
+                <div class="descripcion">
+                    <p>Landing page de empresa de estética, con animaciones GSAP.</p>
+                    <a href="https://raulacosta95.github.io/Portafolio1_pagina_web/" target="_blank">Página Estética</a>
+                </div>
+            </div>
+            <div class="proyecto" id="project-title3">
+                <img src="./imagenes/proyecto3.png" alt="Un meme de un niño que hace amor y paz con los dedos.">
+                <div class="descripcion">
+                    <p>Explorando la creatividad y animaciones simples, recreo un clásico meme.</p>
+                    <a href="https://raulacosta95.github.io/Desaparecer/" target="_blank">Un meme</a>
+                </div>
+            </div>
+            <div class="proyecto" id="project-title4">
+                <img src="./imagenes/proyecto4.png" alt="Logo del restaurante Asadero Del Abuelo que tiene de fondo unas brazas y un fuego.">
+                <div class="descripcion">
+                    <p>La página de presentación de un restaurante de carnes, con su logo animado.</p>
+                    <a href="https://raulacosta95.github.io/Asaderodelabuelo/" target="_blank">Página Restaurante</a>
+                </div>
+            </div>
+            <div class="proyecto" id="project-title5">
+                <img src="./imagenes/proyecto5.png" alt="Texto que viene en la página de consulta de API, que dice Imprime datos de Star Wars Api entre otras cosas.">
+                <div class="descripcion">
+                    <p>Consumo de datos de una API de StarWars.</p>
+                    <a href="https://raulacosta95.github.io/ApiStarWars/" target="_blank">Consumo API</a>
+                </div>
+            </div>
+            <div class="proyecto" id="project-title6">
+                <img src="./imagenes/proyecto6.png" alt="Imagen que dice Desarrollador Web, Raúl Acosta, y viene su foto centrada en un circulo.">
+                <div class="descripcion">
+                    <p>Una página de prueba con ejercicios HTML, CSS y Javascript.</p>
+                    <a href="https://raulacosta95.github.io/Estudio-LitElement/" target="_blank">Ejercicios Front End</a>
+                </div>
+            </div>
+            <div class="proyecto" id="project-title7">
+                <img src="./imagenes/proyecto7.png" alt="Ejemplo de un web component que muestra ejemplos del Life cicle example.">
+                <div class="descripcion">
+                    <p>Ejemplos de Web Components con LitElement y LitHtml.</p>
+                    <a href="https://raulacosta95.github.io/Estudio-LitElement/" target="_blank">Componentes Web</a>
+                </div>
+            </div>
+        </article>
+        <article id="contacto">
+            <p>Medios de contacto</p>
+            <a href="https://www.linkedin.com/in/raulacostaservicio/" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/raul_acosta95" target="_blank">Twitter</a>
+        </article>
+    </section>
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+</html>
