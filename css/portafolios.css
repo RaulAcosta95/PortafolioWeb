@@ -1,4 +1,6 @@
-
+#portafolios{
+    max-width:100vw;
+}
 #portafolios h4{
     margin-top: 20px;
     font-size: 35px;
