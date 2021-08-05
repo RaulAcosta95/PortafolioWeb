@@ -1,0 +1,14 @@
+#everyPixel{
+    background-color: rgb(136, 182, 224);
+    font-family: 'Cute Font', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+#everyPixel img{
+    width: 250px;
+}
+#everyPixel img:hover{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
