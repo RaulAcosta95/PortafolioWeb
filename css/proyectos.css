@@ -10,6 +10,11 @@
     background-color: rgb(66, 72, 88);
     border-radius: 5%;
 }
+#projects .proyecto:hover{
+    -webkit-box-shadow: 10px 10px 9px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 9px -4px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 9px -4px rgba(0,0,0,0.75);
+}
 #projects div img{
     width: 250px;
     height: 250px;
@@ -30,7 +35,4 @@
 }
 #projects .proyecto:hover{
     margin-top:10px
-}
-#projects a:hover{
-    font-size: 28px;
 }
