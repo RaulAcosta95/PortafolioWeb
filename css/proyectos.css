@@ -8,7 +8,10 @@
     width: 250px;
     margin: 20px;
     background-color: rgb(66, 72, 88);
-    border-radius: 5%;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
 }
 #projects .proyecto:hover{
     -webkit-box-shadow: 10px 10px 9px -4px rgba(0,0,0,0.75);
@@ -18,7 +21,10 @@ box-shadow: 10px 10px 9px -4px rgba(0,0,0,0.75);
 #projects div img{
     width: 250px;
     height: 250px;
-    border-radius: 5%;
+    border-radius: 20px 20px 0px 0px;
+-moz-border-radius: 20px 20px 0px 0px;
+-webkit-border-radius: 20px 20px 0px 0px;
+border: 0px solid #000000;
 }
 #projects p{
     text-align: center;
@@ -27,11 +33,10 @@ box-shadow: 10px 10px 9px -4px rgba(0,0,0,0.75);
 }
 #projects a{
     display: block;
-    padding-top: 10px;
     color: rgb(255, 255, 255);
     font-size: 1.5em;
     text-align: center;
-    padding-bottom: 10px;
+    text-decoration: none;
 }
 #projects .proyecto:hover{
     margin-top:10px
